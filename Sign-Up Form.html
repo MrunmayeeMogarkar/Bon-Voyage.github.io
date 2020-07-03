@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up Form</title>
+	<link rel="icon" type="image/png" href="Z2.jpg">
+	<style type="text/css">
+		div{
+			width: 500px;
+			height: 640px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			border: solid black;
+			background-color: white;
+		}
+
+		body{
+			background-image: linear-gradient(to bottom left, hotpink, lightblue);
+		}
+		form{
+			position: relative;
+			display: block;
+			margin-left: 150px;
+			margin-right: auto;
+		}
+		label{
+			color: blue;
+		}
+		input{}
+		button{
+			background-color: rgb(0, 255, 197);
+			position: relative;
+			margin-left: 50px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<form method="post">
+			<h1>Sign Up!</h1>
+			<label for="Name">Name</label><br>
+			<input type="text" name="Name" id="Name" placeholder="Name"><br>
+			<label for="Uname">Username</label><br>
+			<input type="text" name="Uname" id="Uname" placeholder="Username"><br>
+			<label for="Age">Age</label><br>
+			<input type="number" name="Age" id="Age" placeholder="Age"><br>
+			<label for="Gender">Gender</label><br>
+			<input type="radio" name="Gender" id="male">
+			<label for="male">Male</label><br>
+			<input type="radio" name="Gender" id="female">
+			<label for="female">Female</label><br>
+			<label for="stas">Status</label><br>
+			<input type="radio" name="stas" id="married">
+			<label for="single">Single</label><br>
+			<input type="radio" name="stas" id="single">
+			<label for="iarel">In A Relationship</label><br>
+			<input type="radio" name="stas" id="iarel">
+			<label for="married">Married</label><br>
+			<label for="dob">Date Of Birth</label><br>
+			<input type="Date" name="dob" id="dob" placeholder="Date Of Birth"><br>
+			<label for="em">Email</label><br>
+			<input type="Email" name="em" id="em" placeholder="Email"><br>
+			<label for="pwd">Password</label><br>
+			<input type="password" name="pwd" id="pwd" placeholder="Password"><br>
+			<label for="cpwd">Confirm Password</label><br>
+			<input type="password" name="cpwd" id="cpwd" placeholder="Confirm Password"><br>
+
+			<button>Sign-Up</button>
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Form</title>
+	<link rel="icon" type="image/png" href="Z2.jpg">
+	<style type="text/css">
+		div{
+			background-color: white;
+			height: 500px;
+			width: 400px;
+			margin-left: auto;
+			margin-right: auto;
+			border: solid black;
+		}
+		body{
+			background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR7HziBBrU_boFwWZZcKaZbeTuBjcWxAQdPF0Uk4A78H8EOTPYf&usqp=CAU);
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		#fback{
+			width: 200px;
+			height: 150px;
+		}
+		#flname{
+			color: red;
+			width: 200px;
+			height: 30px;
+		}
+		#mail{
+			color: red;
+			width: 200px;
+			height: 30px;
+		}
+		form{
+			position: relative;
+			left: 100px;
+			top: 80px;
+		}
+		h1{
+			font-family: candara;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<form method="post">
+			<h1>Contact Us</h1>
+			<input type="text" name="flname" placeholder="Full Name" id="flname"><br>
+			<input type="email" name="email" placeholder="Email" id="mail"><br>
+			<input type="text" name="feedback" placeholder="Type your message here" id="fback"><br>
+			<input type="checkbox" name="" placeholder="send copy" id="cbox">
+			<label>Send a copy to my email</label><br>
+
+			<button>Send Email</button>
+		</form>
+	</div>
+</body>
+</html>
